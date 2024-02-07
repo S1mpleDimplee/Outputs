@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+#btnConsole,
+#btnAlert,
+#btnChangeText {
+    background-color: rgb(52, 52, 52);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+}
+#btnConsole:hover,
+#btnAlert:hover,
+#btnChangeText:hover {
+    background-color: white;
+    color: black;
+}
+#btnConsole:active
+#btnAlert:active
+#btnChangeText:active {
+    background-color: white;
+    color: black;
+}
+#Text {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
